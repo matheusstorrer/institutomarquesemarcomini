@@ -102,18 +102,18 @@ const swiperGallery = new Swiper('.swiper-container-gallery', {
 // SCROLLREVEAL PAGE //
 const scrollReveal = ScrollReveal({
   origin: 'top',
-  distance: '50px',
+  distance: '20px',
   duration: 1000,
-  reset: true
+  reset: false
 })
 
 scrollReveal.reveal(
   `#home .image, #home .text,
-  #about .image, #about .text,
-  #services header, #services .card, #gallery header, #gallery .container,
-  #testimonials header, #testimonials .testimonials, #common-questions .header-common-questions, #common-questions .accordion,
-  #contact .text, #contact .links, footer .brand, footer .social
-  `,
+    #about .image, #about .text,
+    #services header, #services .card, #gallery header, #gallery .container,
+    #testimonials header, #testimonials .testimonials, #common-questions .header-common-questions, #common-questions .accordion,
+    #contact .text, #contact .links, #contact form, footer .brand, footer .social
+    `,
   { interval: 10 }
 )
 
