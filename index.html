@@ -159,7 +159,7 @@
               <p class="subtitle">
                 Mais do que estética, a Bichectomia promove a melhora da saúde
                 bucal. Auxilia na redução das mordidas nas bochechas ao mastigar
-                e falar ou, até mesmo, de forma involuntária.
+                e falar de forma involuntária.
               </p>
             </div>
             <div class="card">
@@ -540,12 +540,24 @@
               </p>
             </div>
             <div class="divider-2"></div>
-            <form action="#">
+            <form
+              action="https://formsubmit.co/pkw3@hotmail.com.br"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_next"
+                value="http://127.0.0.1:5500/index.html#contact"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="text" name="_honey" style="display: none" />
+              <input type="hidden" name="_template" value="box" />
               <div class="user-details container">
                 <div class="input-box">
                   <span class="name">Nome:</span> <br />
                   <input
                     class="name-input"
+                    name="Nome"
                     type="text"
                     placeholder="Digite seu nome"
                     size="23"
@@ -554,9 +566,24 @@
                 </div>
                 <br />
                 <div class="input-box">
+                  <span class="email-form">Email:</span> <br />
+                  <input
+                    class="cell-phone-input"
+                    name="Email"
+                    type="email"
+                    size="23"
+                    maxlength="23"
+                    minlength="8"
+                    placeholder="Digite seu email"
+                    required
+                  />
+                </div>
+                <br />
+                <div class="input-box">
                   <span class="cell-phone">Telefone:</span> <br />
                   <input
                     class="cell-phone-input"
+                    name="Telefone"
                     type="tel"
                     size="15"
                     maxlength="15"
