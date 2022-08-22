@@ -27,6 +27,7 @@ input {
 textarea {
   font-size: 0.9rem;
   color: var(--base-color);
+  padding: 5px;
 }
 
 ::-webkit-input-placeholder  {font: 400 var(--placeholder-font-size) var(--font-name);}
