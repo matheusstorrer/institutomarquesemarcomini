@@ -21,7 +21,7 @@ img {
 input {
   font-size: 0.9rem;
   color: var(--base-color);
-  padding: 5px
+  padding: 5px;
 }
 
 textarea {
