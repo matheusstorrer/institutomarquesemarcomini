@@ -29,9 +29,9 @@ textarea {
   color: var(--base-color);
 }
 
-::-webkit-input-placeholder  {font: 400 var(--placeholder-font-size) var(--font-name); padding: 5px }
-input:-moz-placeholder {font: 400 var(--placeholder-font-size) var(--font-name); padding: 5px}
-textarea:-moz-placeholder {font: 400 var(--placeholder-font-size) var(--font-name); padding: 5px}
+::-webkit-input-placeholder  {font: 400 var(--placeholder-font-size) var(--font-name);}
+input:-moz-placeholder {font: 400 var(--placeholder-font-size) var(--font-name);}
+textarea:-moz-placeholder {font: 400 var(--placeholder-font-size) var(--font-name);}
 
 /* ========= VARIABLES ========= */
 :root {
